@@ -54,9 +54,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
-    <option name="x" value="-145" />
-    <option name="y" value="38" />
+  <component name="ProjectFrameBounds" extendedState="1">
+    <option name="x" value="251" />
+    <option name="y" value="33" />
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
@@ -66,8 +66,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
+      <pane id="ProjectPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -77,6 +77,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="settings.github" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -103,17 +104,18 @@
       <workItem from="1555008780498" duration="807000" />
       <workItem from="1555009729313" duration="123000" />
       <workItem from="1555009876571" duration="756000" />
+      <workItem from="1555012264128" duration="37000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1686000" />
+    <option name="totallyTimeSpent" value="1723000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-145" y="38" width="1400" height="1000" extended-state="0" />
+    <frame x="251" y="33" width="1400" height="1000" extended-state="0" />
     <layout>
-      <window_info active="true" id="Favorites" order="0" sideWeight="0.5005767" side_tool="true" visible="true" weight="0.2496329" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4994233" visible="true" weight="0.2496329" />
+      <window_info active="true" id="Favorites" order="0" sideWeight="0.5017301" side_tool="true" visible="true" weight="0.2496329" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4982699" visible="true" weight="0.2496329" />
       <window_info id="Structure" order="2" sideWeight="0.5005767" side_tool="true" weight="0.2496329" />
       <window_info anchor="bottom" id="Terminal" order="0" />
       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" />
