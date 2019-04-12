@@ -3,7 +3,10 @@
     --myapp-color-background: limegreen;
     --myapp-color-separator: rgb(120,120,120);
     --myapp-color-main: rgb(45,45,45);
-    --myapp-color-header: rgb(60,60,60)
+    --myapp-color-header: rgb(60,60,60);
+    --myapp-color-footer: rgb(15, 15, 15);
+    --myapp-height-header: 60px;
+    --myapp-height-footer: 50px;
 }
 
 
@@ -27,6 +30,23 @@ html, body {
 /* base structure */
 header{
 
-    background-color: rgb(60, 60, 60);
-    height: 60px;
+    background-color: var(--myapp-color-header);
+    height: var(--myapp-height-header);
+}
+
+footer{
+    background-color: var(--myapp-color-footer);
+    height: var(--myapp-height-footer);
+}
+
+main {
+    background-color: var(--myapp-color-main);
+    height: calc(100% - (var(--myapp-height-header) + var(--myapp-height-footer)));
+}
+
+/*main scrolling */
+
+p {
+    margin: 0px;
+    padding: 10px;
 }
