@@ -1,0 +1,19 @@
+Index: css/css.css
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>/* variable declarations */\r\n:root {\r\n    --myapp-color-background: limegreen;\r\n    --myapp-color-separator: rgb(120,120,120);\r\n    --myapp-color-main: rgb(45,45,45);\r\n    --myapp-color-header: rgb(60,60,60);\r\n    --myapp-color-footer: rgb(15, 15, 15);\r\n    --myapp-height-header: 60px;\r\n    --myapp-height-footer: 50px;\r\n}\r\n\r\n\r\nhtml, body {\r\n    background-color: var(--myapp-color-background);\r\n    margin: 0px;\r\n    font-family: \"Avenir Medium\", sans-serif;\r\n    color: white;\r\n    width: 100%;\r\n    max-width: 100%;\r\n    height: 100%;\r\n    max-height: 100%;\r\n}\r\n\r\n* {\r\n    user-select: none;\r\n    -moz-user-select: none;\r\n    -webkit-user-select: none;\r\n    box-sizing: border-box;\r\n}\r\n\r\n/* base structure */\r\nheader{\r\n\r\n    background-color: var(--myapp-color-header);\r\n    height: var(--myapp-height-header);\r\n}\r\n\r\nfooter{\r\n    background-color: var(--myapp-color-footer);\r\n    height: var(--myapp-height-footer);\r\n}\r\n\r\nmain {\r\n    background-color: var(--myapp-color-main);\r\n    height: calc(100% - (var(--myapp-height-header) + var(--myapp-height-footer)));\r\n}\r\n\r\n/*main scrolling */\r\n\r\np {\r\n    margin: 0px;\r\n    padding: 10px;\r\n}\r\n\r\nmain{\r\n    overflow-y: auto;\r\n}\r\n\r\n/*heading*/\r\nh1 {\r\n    font-size: 20pt;\r\n    text-transform: uppercase;\r\n    display: inline-block;\r\n    margin: 0px;\r\n    font-weight: normal;\r\n    line-height: var(--myapp-height-header);\r\n}\r\nheader{\r\n    padding-right: 10px;\r\n    padding-left: 10px;\r\n}\r\n\r\n/*left/right aligment*/\r\n#menue{\r\n    float: left;\r\n    margin-right: 10px;\r\n    border:none;\r\n    background-color: transparent;\r\n    color: transparent;\r\n    background-image: url(\"./img/glyphicons/png/glyphicons-517-menu-hamburger.png\");\r\n    filter: invert(90%);\r\n}\r\n\r\n#add{\r\n    float: right;\r\n}
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- css/css.css	(revision b13c262b3322250bbb50e96b636d87d6276b972b)
++++ css/css.css	(date 1555115677386)
+@@ -79,6 +79,9 @@
+     color: transparent;
+     background-image: url("./img/glyphicons/png/glyphicons-517-menu-hamburger.png");
+     filter: invert(90%);
++    height: 40px;
++    width: 40px;
++    background-size: 20px auto;
+ }
+ 
+ #add{

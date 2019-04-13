@@ -3,7 +3,11 @@
     --myapp-color-background: limegreen;
     --myapp-color-separator: rgb(120,120,120);
     --myapp-color-main: rgb(45,45,45);
-    --myapp-color-header: rgb(60,60,60)
+    --myapp-color-header: rgb(60,60,60);
+    --myapp-color-footer: rgb(15, 15, 15);
+    --myapp-height-header: 80px;
+    --myapp-height-footer: 60px;
+    --myapp-size-imgbutton:50px;
 }
 
 
@@ -18,147 +22,104 @@ html, body {
     max-height: 100%;
 }
 
-/* block text selection */
-
 * {
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
+    box-sizing: border-box;
 }
 
-/* use flexbox for horizontal positioning (replaces floating used in earlier versions) */
-header, footer, li {
-    display: flex;
-}
+/* base structure */
+header{
 
-/* header and its parts */
-
-header {
     background-color: var(--myapp-color-header);
-    height: 50px;
-    width: 100%;
-    max-width: 100%;
-    line-height: 50px;
+    height: var(--myapp-height-header);
 }
 
-header h1 {
-    font-size: 18pt;
+footer{
+    background-color: var(--myapp-color-footer);
+    height: var(--myapp-height-footer);
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+main {
+    background-color: var(--myapp-color-main);
+    height: calc(100% - (var(--myapp-height-header) + var(--myapp-height-footer)));
+}
+
+/*main scrolling */
+
+p {
+    margin: 0px;
+    padding: 10px;
+}
+
+main{
+    overflow-y: auto;
+}
+
+/*heading*/
+h1 {
+    font-size: 20pt;
+    text-transform: uppercase;
+    display: inline-block;
     margin: 0px;
     font-weight: normal;
-    display: inline-block;
-    text-transform: uppercase;
+    line-height: var(--myapp-height-header);
 }
-
-.imgbutton {
-    background-color: transparent;
-    height: 30px;
-    width: 30px;
-    margin-top: 10px;
-    margin-right: 10px;
-    margin-left: 10px;
-    padding: 0px;
-    border: none;
-    background-repeat: no-repeat;
-    background-size: 30px 30px;
-    display: inline-block;
-    background-origin: content-box;
-    background-position: center center;
-    filter: invert(90%);
-    -webkit-filter: invert(90%);
-}
-
-.listeners-active .toggle-listeners {
-    background-image: url("./img/glyphicons/png/glyphicons-560-mic-mute.png");
-    background-size: 30px 30px;
-    /*float: left;*/
-    justify-content: flex-start;
-}
-
-.toggle-listeners {
-    background-image: url("./img/glyphicons/png/glyphicons-301-microphone.png");
-    background-size: 23px 30px;
-    /*float: left;*/
-    justify-content: flex-start;
-}
-
-.new-item {
-    background-image: url("./img/glyphicons/png/glyphicons-433-plus.png");
-    /*float: right;*/
-    justify-content: flex-end;
-    margin-left: auto;
-}
-
-.edit-item {
-    margin-top: 15px;
-    margin-bottom: 15px;
-    background-image: url("./img/glyphicons/png/glyphicons-31-pencil.png");
-    /*float: right;*/
-    justify-content: flex-end;
-    margin-left: auto;
-}
-
-/* main part of the view */
-
-.maincontent, main {
-    width: 100%;
-    max-width: 100%;
-    background-color: var(--myapp-color-main);
-    height: calc(100% - (50px));
-    height: -webkit-calc(100% - 50px);
-    max-height: calc(100% - 50px);
-    max-height: -webkit-calc(100% - 50px);
-    overflow-y: scroll;
-    overflow-x: hidden;
-}
-
-/* list and list items */
-
-ul {
-    margin: 0px;
-    list-style: none;
-    padding: 0px;
-}
-
-li {
-    height: 60px;
-    line-height: 60px;
-    font-size: 20pt;
+header{
+    padding-right: 10px;
     padding-left: 10px;
-    border-bottom: 1px solid var(--myapp-color-separator);
 }
 
-/* disabled elements */
-[disabled] {
-    opacity: 0.5;
+.imgbutton{
+    margin-right: 10px;
+    border:none;
+    background-color: transparent;
+    color: transparent;
+    filter: invert(90%);
+    height: var(--myapp-size-imgbutton);
+    width:  var(--myapp-size-imgbutton);
+    background-size: 28px auto;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
-/* selected elements */
-li:active, .imgbutton:active  {
-    opacity: 0.1;
+header .imgbutton{
+    margin-top: calc((var(--myapp-height-header) - var(--myapp-size-imgbutton) ) / 2);
 }
 
-
-/* toast */
-
-dialog.toast {
-    position: fixed;
-    width: 60%;
-    bottom: 15%;
-    left: 20%;
-    margin: 0px;
-    padding: 5px;
-    text-align: center;
-    opacity: 0.0;
-    color: white;
-    border: none;
-    transition: opacity 0.5s, background-color 0.5s;
-    transition-delay: 0.5s;
+footer .imgbutton{
+    margin-top: calc((var(--myapp-height-footer) - var(--myapp-size-imgbutton)) / 2);
 }
 
-.toast.shown {
-    opacity: 1.0;
-    background-color: gray;
-    /*transition-delay: 0s;*/
-    transition: opacity 1s, background-color 1s;
+/*left/right aligment*/
+
+.align-left{
+    float: left;
 }
 
+.align-right{
+    float: right;
+}
+
+.imgbutton:last-child{
+    margin-right: 0px;
+}
+
+#menue{
+
+    background-image: url("./img/glyphicons/png/glyphicons-517-menu-hamburger.png");
+
+}
+
+#add{
+
+    background-image: url("./img/glyphicons/png/glyphicons-433-plus.png");
+ }
+
+#refresh{
+
+    background-image: url("./img/glyphicons/png/glyphicons-82-refresh.png");
+}
