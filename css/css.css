@@ -55,3 +55,32 @@ p {
 main{
     overflow-y: auto;
 }
+
+/*heading*/
+h1 {
+    font-size: 20pt;
+    text-transform: uppercase;
+    display: inline-block;
+    margin: 0px;
+    font-weight: normal;
+    line-height: var(--myapp-height-header);
+}
+header{
+    padding-right: 10px;
+    padding-left: 10px;
+}
+
+/*left/right aligment*/
+#menue{
+    float: left;
+    margin-right: 10px;
+    border:none;
+    background-color: transparent;
+    color: transparent;
+    background-image: url("./img/glyphicons/png/glyphicons-517-menu-hamburger.png");
+    filter: invert(90%);
+}
+
+#add{
+    float: right;
+}
