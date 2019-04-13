@@ -86,18 +86,28 @@ header{
 
 
 /*left/right aligment*/
-#menue{
+
+.align-left{
     float: left;
+}
+
+.align-right{
+    float: right;
+}
+
+
+#menue{
+
     background-image: url("./img/glyphicons/png/glyphicons-517-menu-hamburger.png");
 
 }
 
 #add{
-     float: right;
+
     background-image: url("./img/glyphicons/png/glyphicons-433-plus.png");
  }
 
 #refresh{
-    float: right;
+
     background-image: url("./img/glyphicons/png/glyphicons-82-refresh.png");
 }
