@@ -5,8 +5,9 @@
     --myapp-color-main: rgb(45,45,45);
     --myapp-color-header: rgb(60,60,60);
     --myapp-color-footer: rgb(15, 15, 15);
-    --myapp-height-header: 60px;
-    --myapp-height-footer: 50px;
+    --myapp-height-header: 80px;
+    --myapp-height-footer: 60px;
+    --myapp-size-imgbutton:50px;
 }
 
 
@@ -38,6 +39,8 @@ header{
 footer{
     background-color: var(--myapp-color-footer);
     height: var(--myapp-height-footer);
+    padding-left: 10px;
+    padding-right: 10px;
 }
 
 main {
@@ -76,14 +79,20 @@ header{
     background-color: transparent;
     color: transparent;
     filter: invert(90%);
-    height: 40px;
-    width: 40px;
+    height: var(--myapp-size-imgbutton);
+    width:  var(--myapp-size-imgbutton);
     background-size: 28px auto;
     background-repeat: no-repeat;
-    margin-top: 10px;
     background-position: center;
 }
 
+header .imgbutton{
+    margin-top: calc((var(--myapp-height-header) - var(--myapp-size-imgbutton) ) / 2);
+}
+
+footer .imgbutton{
+    margin-top: calc((var(--myapp-height-footer) - var(--myapp-size-imgbutton)) / 2);
+}
 
 /*left/right aligment*/
 
@@ -95,6 +104,9 @@ header{
     float: right;
 }
 
+.imgbutton:last-child{
+    margin-right: 0px;
+}
 
 #menue{
 
