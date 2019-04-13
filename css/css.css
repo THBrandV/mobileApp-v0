@@ -5,9 +5,10 @@
     --myapp-color-main: rgb(45,45,45);
     --myapp-color-header: rgb(60,60,60);
     --myapp-color-footer: rgb(15, 15, 15);
-    --myapp-height-header: 80px;
-    --myapp-height-footer: 60px;
-    --myapp-size-imgbutton:50px;
+    --myapp-height-header: 60px;
+    --myapp-height-footer: 50px;
+    --myapp-size-imgbutton:40px;
+    --myapp-size-imagebutton-img: 20px;
 }
 
 
@@ -81,7 +82,7 @@ header{
     filter: invert(90%);
     height: var(--myapp-size-imgbutton);
     width:  var(--myapp-size-imgbutton);
-    background-size: 28px auto;
+    background-size: var(--myapp-size-imagebutton-img);
     background-repeat: no-repeat;
     background-position: center;
 }
