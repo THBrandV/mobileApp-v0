@@ -124,3 +124,14 @@ footer .imgbutton{
 
     background-image: url("./img/glyphicons/png/glyphicons-82-refresh.png");
 }
+
+main ul{
+    list-style:none;
+    padding: 0px;
+    margin: 0px;
+}
+
+main li{
+
+
+}
