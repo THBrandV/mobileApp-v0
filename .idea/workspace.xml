@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="39bf4f53-fe98-4ca9-bb5f-69d3221051b9" name="Default Changelist" comment="version 5">
       <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htm.html" beforeDir="false" afterPath="$PROJECT_DIR$/htm.html" afterDir="false" />
     </list>
     <list id="dcf78b71-0e70-4787-880c-98834f48cfe6" name="Revert: version 5" comment="" />
     <ignored path="D:\01-Desktop\01-MobileApp\.idea\shelf/" />
@@ -23,8 +24,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="215">
-              <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+            <state relative-caret-position="110">
+              <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -32,8 +33,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+            <state relative-caret-position="518">
+              <caret line="134" selection-start-line="134" selection-end-line="134" />
             </state>
           </provider>
         </entry>
@@ -53,7 +54,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="162" />
     <option name="y" value="60" />
     <option name="width" value="1449" />
@@ -133,19 +134,19 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1555115926944</updated>
-      <workItem from="1555115934059" duration="4965000" />
+      <workItem from="1555115934059" duration="5666000" />
+      <workItem from="1555437097006" duration="1697000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5060000" />
+    <option name="totallyTimeSpent" value="7458000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Favorites" order="0" sideWeight="0.5041459" side_tool="true" visible="true" weight="0.24960254" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49585405" visible="true" weight="0.24960254" />
+      <window_info active="true" id="Favorites" order="0" sideWeight="0.5058043" side_tool="true" visible="true" weight="0.24960254" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.4941957" visible="true" weight="0.24960254" />
       <window_info id="Structure" order="2" sideWeight="0.5005767" side_tool="true" weight="0.2496329" />
       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3283582" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007949" side_tool="true" weight="0.27031508" />
@@ -211,25 +212,37 @@
         </entry>
       </map>
     </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/LICENSE">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
     <entry file="file://$PROJECT_DIR$/css/img/glyphicons/png/glyphicons-82-refresh.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
     <entry file="file://$PROJECT_DIR$/htm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="215">
-          <caret line="104" column="46" selection-start-line="104" selection-start-column="46" selection-end-line="104" selection-end-column="46" />
+        <state relative-caret-position="110">
+          <caret line="20" column="26" lean-forward="true" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="28" selection-start-line="9" selection-start-column="28" selection-end-line="9" selection-end-column="28" />
+        <state relative-caret-position="518">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
         </state>
       </provider>
     </entry>
