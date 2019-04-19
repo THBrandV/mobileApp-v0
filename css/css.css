@@ -118,7 +118,18 @@ footer .imgbutton{
 #add{
 
     background-image: url("./img/glyphicons/png/glyphicons-433-plus.png");
- }
+}
+
+#kachel{
+
+    background-image: url("./img/glyphicons/png/glyphicons-157-show-thumbnails.png");
+}
+
+
+#login{
+
+    background-image: url("./img/glyphicons/png/glyphicons-387-log-in.png");
+}
 
 #refresh{
 
