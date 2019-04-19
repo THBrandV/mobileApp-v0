@@ -1,0 +1,143 @@
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+><?xml version=\"1.0\" encoding=\"UTF-8\"?>\r\n<project version=\"4\">\r\n  <component name=\"ChangeListManager\">\r\n    <list default=\"true\" id=\"39bf4f53-fe98-4ca9-bb5f-69d3221051b9\" name=\"Default Changelist\" comment=\"version 2\" />\r\n    <ignored path=\"$PROJECT_DIR$/.tmp/\" />\r\n    <ignored path=\"$PROJECT_DIR$/temp/\" />\r\n    <ignored path=\"$PROJECT_DIR$/tmp/\" />\r\n    <option name=\"EXCLUDED_CONVERTED_TO_IGNORED\" value=\"true\" />\r\n    <option name=\"SHOW_DIALOG\" value=\"false\" />\r\n    <option name=\"HIGHLIGHT_CONFLICTS\" value=\"true\" />\r\n    <option name=\"HIGHLIGHT_NON_ACTIVE_CHANGELIST\" value=\"false\" />\r\n    <option name=\"LAST_RESOLUTION\" value=\"IGNORE\" />\r\n  </component>\r\n  <component name=\"FavoritesManager\">\r\n    <favorites_list name=\"01-Aufgabe\" />\r\n  </component>\r\n  <component name=\"FileEditorManager\">\r\n    <leaf SIDE_TABS_SIZE_LIMIT_KEY=\"300\">\r\n      <file pinned=\"false\" current-in-tab=\"false\">\r\n        <entry file=\"file://$PROJECT_DIR$/htm.html\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"521\">\r\n              <caret line=\"40\" column=\"396\" selection-start-line=\"40\" selection-start-column=\"396\" selection-end-line=\"40\" selection-end-column=\"396\" />\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n      <file pinned=\"false\" current-in-tab=\"true\">\r\n        <entry file=\"file://$PROJECT_DIR$/css/css.css\">\r\n          <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n            <state relative-caret-position=\"419\">\r\n              <caret line=\"50\" column=\"18\" lean-forward=\"true\" selection-start-line=\"50\" selection-start-column=\"18\" selection-end-line=\"50\" selection-end-column=\"18\" />\r\n            </state>\r\n          </provider>\r\n        </entry>\r\n      </file>\r\n    </leaf>\r\n  </component>\r\n  <component name=\"FileTemplateManagerImpl\">\r\n    <option name=\"RECENT_TEMPLATES\">\r\n      <list>\r\n        <option value=\"HTML File\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"Git.Settings\">\r\n    <option name=\"UPDATE_CHANGES_POLICY\" value=\"SHELVE\" />\r\n    <option name=\"RECENT_GIT_ROOT_PATH\" value=\"$PROJECT_DIR$\" />\r\n  </component>\r\n  <component name=\"IdeDocumentHistory\">\r\n    <option name=\"CHANGED_PATHS\">\r\n      <list>\r\n        <option value=\"$PROJECT_DIR$/htm.html\" />\r\n        <option value=\"$PROJECT_DIR$/css/css.css\" />\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"ProjectFrameBounds\" extendedState=\"6\">\r\n    <option name=\"x\" value=\"357\" />\r\n    <option name=\"y\" value=\"189\" />\r\n    <option name=\"width\" value=\"1449\" />\r\n    <option name=\"height\" value=\"699\" />\r\n  </component>\r\n  <component name=\"ProjectLevelVcsManager\" settingsEditedManually=\"true\" />\r\n  <component name=\"ProjectView\">\r\n    <navigator proportions=\"\" version=\"1\">\r\n      <showMembers ProjectPane=\"true\" />\r\n      <foldersAlwaysOnTop value=\"true\" />\r\n    </navigator>\r\n    <panes>\r\n      <pane id=\"Scope\" />\r\n      <pane id=\"ProjectPane\">\r\n        <subPane>\r\n          <expand>\r\n            <path>\r\n              <item name=\"mobileApp-v3\" type=\"b2602c69:ProjectViewProjectNode\" />\r\n              <item name=\"01-MobileApp\" type=\"462c0819:PsiDirectoryNode\" />\r\n            </path>\r\n          </expand>\r\n          <select />\r\n        </subPane>\r\n      </pane>\r\n    </panes>\r\n  </component>\r\n  <component name=\"PropertiesComponent\">\r\n    <property name=\"DefaultHtmlFileTemplate\" value=\"HTML File\" />\r\n    <property name=\"SHARE_PROJECT_CONFIGURATION_FILES\" value=\"true\" />\r\n    <property name=\"WebServerToolWindowFactoryState\" value=\"false\" />\r\n    <property name=\"last_opened_file_path\" value=\"$PROJECT_DIR$/../01-03-Test\" />\r\n    <property name=\"nodejs_interpreter_path.stuck_in_default_project\" value=\"undefined stuck path\" />\r\n    <property name=\"nodejs_npm_path_reset_for_default_project\" value=\"true\" />\r\n    <property name=\"settings.editor.selected.configurable\" value=\"settings.github\" />\r\n  </component>\r\n  <component name=\"RecentsManager\">\r\n    <key name=\"OPEN_URL_DIALOG\">\r\n      <recent name=\"https://github.com/THBrandV/mobileApp-v0.git\" />\r\n    </key>\r\n  </component>\r\n  <component name=\"RunDashboard\">\r\n    <option name=\"ruleStates\">\r\n      <list>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"ConfigurationTypeDashboardGroupingRule\" />\r\n        </RuleState>\r\n        <RuleState>\r\n          <option name=\"name\" value=\"StatusDashboardGroupingRule\" />\r\n        </RuleState>\r\n      </list>\r\n    </option>\r\n  </component>\r\n  <component name=\"SvnConfiguration\">\r\n    <configuration />\r\n  </component>\r\n  <component name=\"TaskManager\">\r\n    <task active=\"true\" id=\"Default\" summary=\"Default task\">\r\n      <changelist id=\"39bf4f53-fe98-4ca9-bb5f-69d3221051b9\" name=\"Default Changelist\" comment=\"\" />\r\n      <created>1555008779288</created>\r\n      <option name=\"number\" value=\"Default\" />\r\n      <option name=\"presentableId\" value=\"Default\" />\r\n      <updated>1555008779288</updated>\r\n      <workItem from=\"1555008780498\" duration=\"807000\" />\r\n      <workItem from=\"1555009729313\" duration=\"123000\" />\r\n      <workItem from=\"1555009876571\" duration=\"756000\" />\r\n      <workItem from=\"1555012264128\" duration=\"37000\" />\r\n      <workItem from=\"1555082405910\" duration=\"12297000\" />\r\n    </task>\r\n    <task id=\"LOCAL-00001\" summary=\"test2\">\r\n      <created>1555082658458</created>\r\n      <option name=\"number\" value=\"00001\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00001\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1555082658458</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00002\" summary=\"test2\">\r\n      <created>1555083242930</created>\r\n      <option name=\"number\" value=\"00002\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00002\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1555083242930</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00003\" summary=\"test2\">\r\n      <created>1555083723845</created>\r\n      <option name=\"number\" value=\"00003\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00003\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1555083723845</updated>\r\n    </task>\r\n    <task id=\"LOCAL-00004\" summary=\"test2\">\r\n      <created>1555086913498</created>\r\n      <option name=\"number\" value=\"00004\" />\r\n      <option name=\"presentableId\" value=\"LOCAL-00004\" />\r\n      <option name=\"project\" value=\"LOCAL\" />\r\n      <updated>1555086913498</updated>\r\n    </task>\r\n    <option name=\"localTasksCounter\" value=\"5\" />\r\n    <servers />\r\n  </component>\r\n  <component name=\"TimeTrackingManager\">\r\n    <option name=\"totallyTimeSpent\" value=\"14020000\" />\r\n  </component>\r\n  <component name=\"ToolWindowManager\">\r\n    <frame x=\"-7\" y=\"-7\" width=\"1295\" height=\"735\" extended-state=\"6\" />\r\n    <editor active=\"true\" />\r\n    <layout>\r\n      <window_info id=\"Favorites\" order=\"0\" sideWeight=\"0.5041459\" side_tool=\"true\" visible=\"true\" weight=\"0.24960254\" />\r\n      <window_info active=\"true\" content_ui=\"combo\" id=\"Project\" order=\"1\" sideWeight=\"0.49585405\" visible=\"true\" weight=\"0.24960254\" />\r\n      <window_info id=\"Structure\" order=\"2\" sideWeight=\"0.5005767\" side_tool=\"true\" weight=\"0.2496329\" />\r\n      <window_info anchor=\"bottom\" id=\"Messages\" weight=\"0.3283582\" />\r\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"0\" weight=\"0.3283582\" />\r\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"1\" side_tool=\"true\" weight=\"0.3283582\" />\r\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"2\" weight=\"0.3283582\" />\r\n      <window_info anchor=\"bottom\" id=\"Docker\" order=\"3\" show_stripe_button=\"false\" />\r\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"4\" />\r\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"5\" />\r\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"6\" />\r\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"7\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"8\" weight=\"0.25\" />\r\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"9\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"10\" />\r\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\r\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\r\n    </layout>\r\n    <layout-to-restore>\r\n      <window_info id=\"Favorites\" order=\"0\" side_tool=\"true\" />\r\n      <window_info content_ui=\"combo\" id=\"Project\" order=\"1\" visible=\"true\" weight=\"0.2496329\" />\r\n      <window_info id=\"Structure\" order=\"2\" side_tool=\"true\" weight=\"0.25\" />\r\n      <window_info anchor=\"bottom\" id=\"Terminal\" order=\"0\" />\r\n      <window_info anchor=\"bottom\" id=\"Event Log\" order=\"1\" side_tool=\"true\" />\r\n      <window_info anchor=\"bottom\" id=\"Version Control\" order=\"2\" />\r\n      <window_info anchor=\"bottom\" id=\"Docker\" order=\"3\" show_stripe_button=\"false\" />\r\n      <window_info anchor=\"bottom\" id=\"Message\" order=\"4\" />\r\n      <window_info anchor=\"bottom\" id=\"Find\" order=\"5\" />\r\n      <window_info anchor=\"bottom\" id=\"Run\" order=\"6\" />\r\n      <window_info anchor=\"bottom\" id=\"Debug\" order=\"7\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"Cvs\" order=\"8\" weight=\"0.25\" />\r\n      <window_info anchor=\"bottom\" id=\"Inspection\" order=\"9\" weight=\"0.4\" />\r\n      <window_info anchor=\"bottom\" id=\"TODO\" order=\"10\" />\r\n      <window_info anchor=\"right\" id=\"Commander\" internal_type=\"SLIDING\" order=\"0\" type=\"SLIDING\" weight=\"0.4\" />\r\n      <window_info anchor=\"right\" id=\"Ant Build\" order=\"1\" weight=\"0.25\" />\r\n      <window_info anchor=\"right\" content_ui=\"combo\" id=\"Hierarchy\" order=\"2\" weight=\"0.25\" />\r\n    </layout-to-restore>\r\n  </component>\r\n  <component name=\"TypeScriptGeneratedFilesManager\">\r\n    <option name=\"version\" value=\"1\" />\r\n  </component>\r\n  <component name=\"UpdateCopyrightCheckinHandler\">\r\n    <option name=\"UPDATE_COPYRIGHT\" value=\"true\" />\r\n  </component>\r\n  <component name=\"VcsManagerConfiguration\">\r\n    <option name=\"CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT\" value=\"true\" />\r\n    <MESSAGE value=\"test2\" />\r\n    <MESSAGE value=\"version 2\" />\r\n    <option name=\"LAST_COMMIT_MESSAGE\" value=\"version 2\" />\r\n  </component>\r\n  <component name=\"editorHistoryManager\">\r\n    <entry file=\"https://github.com/THBrandV/mobileApp-v0.git\">\r\n      <provider selected=\"true\" editor-type-id=\"httpFileEditor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/htm.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"521\">\r\n          <caret line=\"40\" column=\"396\" selection-start-line=\"40\" selection-start-column=\"396\" selection-end-line=\"40\" selection-end-column=\"396\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/01-MobileApp/htm.html\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/01-MobileApp/css/css.css\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\" />\r\n    </entry>\r\n    <entry file=\"file://$PROJECT_DIR$/css/css.css\">\r\n      <provider selected=\"true\" editor-type-id=\"text-editor\">\r\n        <state relative-caret-position=\"419\">\r\n          <caret line=\"50\" column=\"18\" lean-forward=\"true\" selection-start-line=\"50\" selection-start-column=\"18\" selection-end-line=\"50\" selection-end-column=\"18\" />\r\n        </state>\r\n      </provider>\r\n    </entry>\r\n  </component>\r\n</project>
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+--- .idea/workspace.xml	(revision 43febbe12d94a28757beb5a548370e9720a8b150)
++++ .idea/workspace.xml	(date 1555110344477)
+@@ -19,7 +19,7 @@
+       <file pinned="false" current-in-tab="false">
+         <entry file="file://$PROJECT_DIR$/htm.html">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="521">
++            <state relative-caret-position="680">
+               <caret line="40" column="396" selection-start-line="40" selection-start-column="396" selection-end-line="40" selection-end-column="396" />
+             </state>
+           </provider>
+@@ -28,8 +28,8 @@
+       <file pinned="false" current-in-tab="true">
+         <entry file="file://$PROJECT_DIR$/css/css.css">
+           <provider selected="true" editor-type-id="text-editor">
+-            <state relative-caret-position="419">
+-              <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
++            <state relative-caret-position="490">
++              <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+             </state>
+           </provider>
+         </entry>
+@@ -56,10 +56,10 @@
+     </option>
+   </component>
+   <component name="ProjectFrameBounds" extendedState="6">
+-    <option name="x" value="357" />
+-    <option name="y" value="189" />
+-    <option name="width" value="1449" />
+-    <option name="height" value="699" />
++    <option name="x" value="103" />
++    <option name="y" value="29" />
++    <option name="width" value="1400" />
++    <option name="height" value="1000" />
+   </component>
+   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+   <component name="ProjectView">
+@@ -68,28 +68,28 @@
+       <foldersAlwaysOnTop value="true" />
+     </navigator>
+     <panes>
+-      <pane id="Scope" />
+       <pane id="ProjectPane">
+         <subPane>
+           <expand>
+             <path>
+               <item name="mobileApp-v3" type="b2602c69:ProjectViewProjectNode" />
+-              <item name="01-MobileApp" type="462c0819:PsiDirectoryNode" />
++              <item name="mobileApp-v0" type="462c0819:PsiDirectoryNode" />
+             </path>
+           </expand>
+           <select />
+         </subPane>
+       </pane>
++      <pane id="Scope" />
+     </panes>
+   </component>
+   <component name="PropertiesComponent">
+     <property name="DefaultHtmlFileTemplate" value="HTML File" />
+     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+     <property name="WebServerToolWindowFactoryState" value="false" />
+-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../01-03-Test" />
++    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+-    <property name="settings.editor.selected.configurable" value="settings.github" />
++    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+   </component>
+   <component name="RecentsManager">
+     <key name="OPEN_URL_DIALOG">
+@@ -123,6 +123,7 @@
+       <workItem from="1555009876571" duration="756000" />
+       <workItem from="1555012264128" duration="37000" />
+       <workItem from="1555082405910" duration="12297000" />
++      <workItem from="1555106126098" duration="678000" />
+     </task>
+     <task id="LOCAL-00001" summary="test2">
+       <created>1555082658458</created>
+@@ -156,16 +157,14 @@
+     <servers />
+   </component>
+   <component name="TimeTrackingManager">
+-    <option name="totallyTimeSpent" value="14020000" />
++    <option name="totallyTimeSpent" value="14698000" />
+   </component>
+   <component name="ToolWindowManager">
+-    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+-    <editor active="true" />
++    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+     <layout>
+-      <window_info id="Favorites" order="0" sideWeight="0.5041459" side_tool="true" visible="true" weight="0.24960254" />
+-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49585405" visible="true" weight="0.24960254" />
++      <window_info id="Favorites" order="0" sideWeight="0.5041459" side_tool="true" weight="0.24960254" />
++      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.49585405" visible="true" weight="0.24920969" />
+       <window_info id="Structure" order="2" sideWeight="0.5005767" side_tool="true" weight="0.2496329" />
+-      <window_info anchor="bottom" id="Messages" weight="0.3283582" />
+       <window_info anchor="bottom" id="Terminal" order="0" weight="0.3283582" />
+       <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.3283582" />
+       <window_info anchor="bottom" id="Version Control" order="2" weight="0.3283582" />
+@@ -177,6 +176,7 @@
+       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
+       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
+       <window_info anchor="bottom" id="TODO" order="10" />
++      <window_info anchor="bottom" id="Messages" order="11" weight="0.3283582" />
+       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+@@ -217,23 +217,19 @@
+     <entry file="https://github.com/THBrandV/mobileApp-v0.git">
+       <provider selected="true" editor-type-id="httpFileEditor" />
+     </entry>
++    <entry file="file://$PROJECT_DIR$/01-MobileApp/htm.html" />
++    <entry file="file://$PROJECT_DIR$/01-MobileApp/css/css.css" />
+     <entry file="file://$PROJECT_DIR$/htm.html">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="521">
++        <state relative-caret-position="680">
+           <caret line="40" column="396" selection-start-line="40" selection-start-column="396" selection-end-line="40" selection-end-column="396" />
+         </state>
+       </provider>
+     </entry>
+-    <entry file="file://$PROJECT_DIR$/01-MobileApp/htm.html">
+-      <provider selected="true" editor-type-id="text-editor" />
+-    </entry>
+-    <entry file="file://$PROJECT_DIR$/01-MobileApp/css/css.css">
+-      <provider selected="true" editor-type-id="text-editor" />
+-    </entry>
+     <entry file="file://$PROJECT_DIR$/css/css.css">
+       <provider selected="true" editor-type-id="text-editor">
+-        <state relative-caret-position="419">
+-          <caret line="50" column="18" lean-forward="true" selection-start-line="50" selection-start-column="18" selection-end-line="50" selection-end-column="18" />
++        <state relative-caret-position="490">
++          <caret line="33" column="39" lean-forward="true" selection-start-line="33" selection-start-column="39" selection-end-line="33" selection-end-column="39" />
+         </state>
+       </provider>
+     </entry>
