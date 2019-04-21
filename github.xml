@@ -1,0 +1,7 @@
+<application>
+  <component name="GithubAccounts">
+    <account id="0eb3ec71-9020-4bcb-9d86-32ed91788565" name="mirko.schoerner@th-brandenburg.de">
+      <server host="github.com" />
+    </account>
+  </component>
+</application>
