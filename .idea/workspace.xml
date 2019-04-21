@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="39bf4f53-fe98-4ca9-bb5f-69d3221051b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/htm.html" beforeDir="false" afterPath="$PROJECT_DIR$/htm.html" afterDir="false" />
     </list>
@@ -22,20 +21,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/htm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
-              <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
+            <state relative-caret-position="289">
+              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-1844">
-              <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+            <state relative-caret-position="3213">
+              <caret line="255" column="19" lean-forward="true" selection-start-line="255" selection-start-column="19" selection-end-line="255" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -48,6 +47,11 @@
       <find>h3</find>
       <find>h2</find>
       <find>zeile</find>
+      <find>item</find>
+      <find>img</find>
+      <find>add</find>
+      <find>tiles</find>
+      <find>menu</find>
     </findStrings>
     <replaceStrings>
       <replace>h3</replace>
@@ -65,12 +69,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/htm.html" />
         <option value="$PROJECT_DIR$/css/css.css" />
+        <option value="$PROJECT_DIR$/htm.html" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="21" />
     <option name="y" value="33" />
     <option name="width" value="1683" />
@@ -84,7 +88,17 @@
     </navigator>
     <panes>
       <pane id="Scope" />
-      <pane id="ProjectPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="mobileApp-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01-MobileApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -122,6 +136,7 @@
       <workItem from="1555698880138" duration="2496000" />
       <workItem from="1555785238806" duration="301000" />
       <workItem from="1555787239083" duration="8390000" />
+      <workItem from="1555843051466" duration="5888000" />
     </task>
     <task id="LOCAL-00001" summary="version 12">
       <created>1555699127667</created>
@@ -141,17 +156,18 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22150000" />
+    <option name="totallyTimeSpent" value="28038000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="15" y="23" width="1121" height="630" extended-state="0" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5091514" side_tool="true" weight="0.24920382" />
-      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.48991936" visible="true" weight="0.2892791" />
-      <window_info id="Structure" order="2" sideWeight="0.51008064" side_tool="true" visible="true" weight="0.2892791" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3283582" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" sideWeight="0.48752078" visible="true" weight="0.24920382" />
+      <window_info id="Structure" order="2" sideWeight="0.5124792" side_tool="true" visible="true" weight="0.24920382" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3266129" />
       <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007949" side_tool="true" weight="0.27031508" />
-      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49920508" weight="0.27031508" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49920508" weight="0.22296172" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
@@ -238,9 +254,7 @@
     <entry file="file://$PROJECT_DIR$/css/img/glyphicons/png/glyphicons-82-refresh.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/../Andre/htm.html">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/../Andre/htm.html" />
     <entry file="file://$PROJECT_DIR$/../02-MobileApp-Java/htm.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -248,17 +262,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htm.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
-          <caret line="28" column="8" lean-forward="true" selection-start-line="28" selection-start-column="8" selection-end-line="28" selection-end-column="8" />
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/editor.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_windows/laf.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codestyles/Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1844">
-          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+        <state relative-caret-position="3213">
+          <caret line="255" column="19" lean-forward="true" selection-start-line="255" selection-start-column="19" selection-end-line="255" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/htm.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
         </state>
       </provider>
     </entry>

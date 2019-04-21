@@ -8,19 +8,23 @@
     --myapp-color-header: rgb(255,255,255);
     --myapp-color-footer: rgb(255, 255, 255);
     --myapp-color-text: rgb(0,0,0);
+    --my-color-lines: rgb(120,120,120);
 
     /*--Hoehen und Groessen-- */
     --myapp-height-header: 60px;
     --myapp-height-footer: 50px;
+
     --myapp-size-imgbutton:40px;
     --myapp-size-imagebutton-img: 20px;
 
-    /*--Titel Beitraege Masze-- */
     --my-size-img: 55px;
     --my-size-img-tiles: 100px;
+
+    /*--Titel Beitraege Masze-- */
+
     --my-height-listitem: 70px;
     --my-height-listitems-tiles: 110px;
-    --my-color-lines: rgb(120,120,120);
+
 
 
 }
@@ -234,19 +238,21 @@ main li .option {
 }
 
 /* ------ TILES ------ */
-.tiles li {
+
+.tiles li .item {
     display: inline-block;
     border-bottom: none;
-   /* padding-right: 0px;
-    padding-left: 0px; */
+    padding-right: 0px;
+    padding-left: 0px;
     height: calc(var(--my-size-img-tiles) + 10px);
 }
 
-.tiles li * {
+/*.tiles li * :not(:first-child){ */
+.tiles li .item * {
     display: none;
 }
 
-.tiles img {
+.tiles li .item img {
     display: block;
     height: var(--my-size-img-tiles);
     width: var(--my-size-img-tiles);
