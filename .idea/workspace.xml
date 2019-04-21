@@ -1,13 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39bf4f53-fe98-4ca9-bb5f-69d3221051b9" name="Default Changelist" comment="version 2">
+    <list default="true" id="39bf4f53-fe98-4ca9-bb5f-69d3221051b9" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/htm.html" beforeDir="false" afterPath="$PROJECT_DIR$/htm.html" afterDir="false" />
     </list>
+    <list id="dcf78b71-0e70-4787-880c-98834f48cfe6" name="Revert: version 5" comment="" />
+    <ignored path="D:\01-Desktop\01-MobileApp\.idea\shelf/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />
-    <ignored path="C:\Users\admin\Desktop\01-01-GitHub\mobileApp-v0\mobileApp-v0\.idea\shelf/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,20 +22,29 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/htm.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="286">
-              <caret line="78" column="79" lean-forward="true" selection-start-line="78" selection-start-column="79" selection-end-line="78" selection-end-column="79" />
+            <state relative-caret-position="222">
+              <caret line="343" column="7" lean-forward="true" selection-start-line="343" selection-start-column="7" selection-end-line="343" selection-end-column="7" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/js/jsl.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="202">
+              <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="490">
-              <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+            <state relative-caret-position="185">
+              <caret line="270" selection-start-line="270" selection-end-line="270" />
             </state>
           </provider>
         </entry>
@@ -42,27 +54,51 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="HTML File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>zell</find>
+      <find>h3</find>
+      <find>h2</find>
+      <find>zeile</find>
+      <find>item</find>
+      <find>img</find>
+      <find>add</find>
+      <find>tiles</find>
+      <find>menu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>h3</replace>
+      <replace>h2</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="UPDATE_CHANGES_POLICY" value="SHELVE" />
+    <option name="PUSH_AUTO_UPDATE" value="true" />
+    <option name="ROOT_SYNC" value="DONT_SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="AUTO_COMMIT_ON_CHERRY_PICK" value="true" />
+    <option name="RESET_MODE" value="KEEP" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
+        <option value="$PROJECT_DIR$/js/eigen.js" />
+        <option value="$PROJECT_DIR$/js/js.js" />
         <option value="$PROJECT_DIR$/htm.html" />
+        <option value="$PROJECT_DIR$/js/jsl.js" />
         <option value="$PROJECT_DIR$/css/css.css" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="357" />
-    <option name="y" value="189" />
-    <option name="width" value="1449" />
-    <option name="height" value="699" />
+    <option name="x" value="21" />
+    <option name="y" value="33" />
+    <option name="width" value="1683" />
+    <option name="height" value="945" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -71,33 +107,37 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="mobileApp-v3" type="b2602c69:ProjectViewProjectNode" />
-              <item name="mobileApp-v0" type="462c0819:PsiDirectoryNode" />
+              <item name="01-MobileApp" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileApp-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01-MobileApp" type="462c0819:PsiDirectoryNode" />
+              <item name="data" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mobileApp-v3" type="b2602c69:ProjectViewProjectNode" />
+              <item name="01-MobileApp" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
-    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
-    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
-  </component>
-  <component name="RecentsManager">
-    <key name="OPEN_URL_DIALOG">
-      <recent name="https://github.com/THBrandV/mobileApp-v0.git" />
-    </key>
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../02-MobileApp-Java/htm.html" />
+    <property name="nodejs_interpreter_path" value="node" />
+    <property name="restartRequiresConfirmation" value="false" />
+    <property name="settings.editor.selected.configurable" value="xpath.settings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,75 +151,77 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Node.js.Run Node">
+    <configuration name="js.js" type="NodeJSConfigurationType" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/js/js.js" working-dir="$PROJECT_DIR$/js">
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
-    <configuration />
+    <configuration>C:\Users\MS\AppData\Roaming\Subversion</configuration>
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="39bf4f53-fe98-4ca9-bb5f-69d3221051b9" name="Default Changelist" comment="" />
-      <created>1555008779288</created>
+      <changelist id="39bf4f53-fe98-4ca9-bb5f-69d3221051b9" name="Default Changelist" comment="version 5" />
+      <changelist id="dcf78b71-0e70-4787-880c-98834f48cfe6" name="Revert: version 5" comment="" />
+      <created>1555115926944</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1555008779288</updated>
-      <workItem from="1555008780498" duration="807000" />
-      <workItem from="1555009729313" duration="123000" />
-      <workItem from="1555009876571" duration="756000" />
-      <workItem from="1555012264128" duration="37000" />
-      <workItem from="1555082405910" duration="13970000" />
-      <workItem from="1555436884130" duration="683000" />
+      <updated>1555115926944</updated>
+      <workItem from="1555115934059" duration="5666000" />
+      <workItem from="1555437097006" duration="2298000" />
+      <workItem from="1555672529848" duration="2904000" />
+      <workItem from="1555698880138" duration="2496000" />
+      <workItem from="1555785238806" duration="301000" />
+      <workItem from="1555787239083" duration="8390000" />
+      <workItem from="1555843051466" duration="9036000" />
+      <workItem from="1555852562914" duration="3221000" />
     </task>
-    <task id="LOCAL-00001" summary="test2">
-      <created>1555082658458</created>
+    <task id="LOCAL-00001" summary="version 12">
+      <created>1555699127667</created>
       <option name="number" value="00001" />
       <option name="presentableId" value="LOCAL-00001" />
       <option name="project" value="LOCAL" />
-      <updated>1555082658458</updated>
+      <updated>1555699127667</updated>
     </task>
-    <task id="LOCAL-00002" summary="test2">
-      <created>1555083242930</created>
+    <task id="LOCAL-00002" summary="version 13&#10;20.04.2019&#10;&#10;mit Andre, erstnal so">
+      <created>1555716192413</created>
       <option name="number" value="00002" />
       <option name="presentableId" value="LOCAL-00002" />
       <option name="project" value="LOCAL" />
-      <updated>1555083242930</updated>
+      <updated>1555716192413</updated>
     </task>
-    <task id="LOCAL-00003" summary="test2">
-      <created>1555083723845</created>
+    <task id="LOCAL-00003" summary="version 15&#10;21.04.2019&#10;&#10;body-Klasse">
+      <created>1555850653599</created>
       <option name="number" value="00003" />
       <option name="presentableId" value="LOCAL-00003" />
       <option name="project" value="LOCAL" />
-      <updated>1555083723845</updated>
+      <updated>1555850653599</updated>
     </task>
-    <task id="LOCAL-00004" summary="test2">
-      <created>1555086913498</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1555086913498</updated>
-    </task>
-    <option name="localTasksCounter" value="5" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16537000" />
+    <option name="totallyTimeSpent" value="34407000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1096" extended-state="6" />
+    <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Favorites" order="0" sideWeight="0.5041459" side_tool="true" weight="0.24960254" />
-      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.49585405" visible="true" weight="0.24920969" />
-      <window_info id="Structure" order="2" sideWeight="0.5005767" side_tool="true" weight="0.2496329" />
-      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3283582" />
-      <window_info anchor="bottom" id="Event Log" order="1" side_tool="true" weight="0.3283582" />
-      <window_info active="true" anchor="bottom" id="Version Control" order="2" visible="true" weight="0.3281412" />
+      <window_info id="Favorites" order="0" sideWeight="0.5091514" side_tool="true" weight="0.24920382" />
+      <window_info content_ui="combo" id="Project" order="1" sideWeight="0.48387095" visible="true" weight="0.24920382" />
+      <window_info id="Structure" order="2" sideWeight="0.516129" side_tool="true" weight="0.24920382" />
+      <window_info anchor="bottom" id="Terminal" order="0" weight="0.3266129" />
+      <window_info anchor="bottom" id="Event Log" order="1" sideWeight="0.5007949" side_tool="true" weight="0.27031508" />
+      <window_info anchor="bottom" id="Version Control" order="2" sideWeight="0.49920508" weight="0.22296172" />
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info anchor="bottom" id="Run" order="6" />
+      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3294509" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="10" />
-      <window_info anchor="bottom" id="Messages" order="11" weight="0.3283582" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.3279678" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -207,32 +249,110 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
-  <component name="UpdateCopyrightCheckinHandler">
-    <option name="UPDATE_COPYRIGHT" value="true" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <option name="CHECK_CODE_CLEANUP_BEFORE_PROJECT_COMMIT" value="true" />
-    <MESSAGE value="test2" />
-    <MESSAGE value="version 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 2" />
+    <MESSAGE value="version 12" />
+    <MESSAGE value="version 13&#10;20.04.2019&#10;&#10;mit Andre, erstnal so" />
+    <MESSAGE value="version 15&#10;20.04.2019&#10;&#10;body-Klasse" />
+    <MESSAGE value="version 15&#10;21.04.2019&#10;&#10;body-Klasse" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 15&#10;21.04.2019&#10;&#10;body-Klasse" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="https://github.com/THBrandV/mobileApp-v0.git">
-      <provider selected="true" editor-type-id="httpFileEditor" />
+    <entry file="file://$PROJECT_DIR$/LICENSE" />
+    <entry file="file://$PROJECT_DIR$/css/img/glyphicons/png/glyphicons-82-refresh.png">
+      <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/01-MobileApp/htm.html" />
-    <entry file="file://$PROJECT_DIR$/01-MobileApp/css/css.css" />
-    <entry file="file://$PROJECT_DIR$/css/css.css">
+    <entry file="file://$PROJECT_DIR$/../Andre/htm.html" />
+    <entry file="file://$PROJECT_DIR$/../02-MobileApp-Java/htm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="490">
-          <caret line="34" column="39" selection-start-line="34" selection-start-column="39" selection-end-line="34" selection-end-column="39" />
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/editor.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_windows/laf.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/codestyles/Default.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/js.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jsr.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" lean-forward="true" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/listitems.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="22" column="1" lean-forward="true" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/htm.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="78" column="79" lean-forward="true" selection-start-line="78" selection-start-column="79" selection-end-line="78" selection-end-column="79" />
+        <state relative-caret-position="222">
+          <caret line="343" column="7" lean-forward="true" selection-start-line="343" selection-start-column="7" selection-end-line="343" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/js/jsl.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="202">
+          <caret line="18" lean-forward="true" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/css/css.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="270" selection-start-line="270" selection-end-line="270" />
         </state>
       </provider>
     </entry>

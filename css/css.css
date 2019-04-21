@@ -1,14 +1,32 @@
 /* variable declarations */
 :root {
+
+    /*--Farben-- */
     --myapp-color-background: limegreen;
     --myapp-color-separator: rgb(120,120,120);
-    --myapp-color-main: rgb(45,45,45);
-    --myapp-color-header: rgb(60,60,60);
-    --myapp-color-footer: rgb(15, 15, 15);
+    --myapp-color-main: rgb(255,255,255);
+    --myapp-color-header: rgb(255,255,255);
+    --myapp-color-footer: rgb(255, 255, 255);
+    --myapp-color-text: rgb(0,0,0);
+    --my-color-lines: rgb(120,120,120);
+
+    /*--Hoehen und Groessen-- */
     --myapp-height-header: 60px;
     --myapp-height-footer: 50px;
+
     --myapp-size-imgbutton:40px;
     --myapp-size-imagebutton-img: 20px;
+
+    --my-size-img: 55px;
+    --my-size-img-tiles: 100px;
+
+    /*--Titel Beitraege Masze-- */
+
+    --my-height-listitem: 70px;
+    --my-height-listitems-tiles: 110px;
+
+
+
 }
 
 
@@ -16,7 +34,7 @@ html, body {
     background-color: var(--myapp-color-background);
     margin: 0px;
     font-family: "Avenir Medium", sans-serif;
-    color: white;
+    color: rgb(0,0,0);
     width: 100%;
     max-width: 100%;
     height: 100%;
@@ -37,17 +55,20 @@ header{
     height: var(--myapp-height-header);
 }
 
+main {
+    background-color: var(--myapp-color-main);
+    height: calc(100% - (var(--myapp-height-header) + var(--myapp-height-footer)));
+}
+
 footer{
     background-color: var(--myapp-color-footer);
     height: var(--myapp-height-footer);
     padding-left: 10px;
     padding-right: 10px;
+    border-top: 2px orange solid;
 }
 
-main {
-    background-color: var(--myapp-color-main);
-    height: calc(100% - (var(--myapp-height-header) + var(--myapp-height-footer)));
-}
+
 
 /*main scrolling */
 
@@ -69,6 +90,13 @@ h1 {
     font-weight: normal;
     line-height: var(--myapp-height-header);
 }
+h3 {
+    font-weight: normal;
+    margin: 0px;
+    line-height: 20px;
+}
+
+
 header{
     padding-right: 10px;
     padding-left: 10px;
@@ -79,7 +107,7 @@ header{
     border:none;
     background-color: transparent;
     color: transparent;
-    filter: invert(90%);
+    filter: invert(50%);
     height: var(--myapp-size-imgbutton);
     width:  var(--myapp-size-imgbutton);
     background-size: var(--myapp-size-imagebutton-img);
@@ -109,40 +137,139 @@ footer .imgbutton{
     margin-right: 0px;
 }
 
-#menue{
+.menue{
 
     background-image: url("./img/glyphicons/png/glyphicons-517-menu-hamburger.png");
 
 }
 
-#add{
+.add{
 
     background-image: url("./img/glyphicons/png/glyphicons-433-plus.png");
 }
 
-#kachel{
+.kachel{
 
     background-image: url("./img/glyphicons/png/glyphicons-157-show-thumbnails.png");
 }
 
 
-#login{
+.login{
 
     background-image: url("./img/glyphicons/png/glyphicons-387-log-in.png");
 }
 
-#refresh{
+.refresh{
 
     background-image: url("./img/glyphicons/png/glyphicons-82-refresh.png");
 }
 
+
+/*--Listenelemente-- */
 main ul{
     list-style:none;
     padding: 0px;
     margin: 0px;
 }
 
-main li{
+
+main li {
+    height: var(--my-height-listitem);
+    line-height: var(--my-height-listitem);
+    border-bottom: 1px solid var(--my-color-lines);
+    padding-left: 15px;
+    padding-right: 10px;
+    font-size: 20px;
+}
+
+main li:first-child {
+    margin-top: 10px;
+    box-shadow: 0px -10px 10px lightgrey;
+}
+
+main li .imgbutton {
+    margin-top: calc((var(--my-height-listitem) - var(--myapp-size-imgbutton) ) / 2);
+}
 
 
+main h2 {
+    font-weight: normal;
+    margin: 0px;
+    font-size: 20px;
+    display: inline-block;
+}
+
+main li img {
+    height: var(--my-size-img);
+    width: var(--my-size-img);
+    object-fit: cover;
+    margin-right: 10px;
+    margin-top: 10px;
+}
+
+
+
+main li .zeile {
+    height: 20px;
+    width: calc(100% - 70px);
+    /*padding: 0px;*/
+    font-size: 10px;
+    /*margin-top: 5px;*/
+    /*margin-right: 0px;*/
+    vertical-align: top;
+}
+
+main li .play {
+    height: 10px;
+    width: 10px;
+    filter: invert(60%);
+    -webkit-filter: invert(60%);
+    margin-top: 5px;
+    margin-right: 5px;
+}
+
+main li .option {
+    height: 20px;
+    width: 6px;
+    filter: invert(60%);
+    /*object-fit: cover;*/
+    -webkit-filter: invert(60%);
+    margin: 0px;
+}
+
+/* ------ TILES ------ */
+
+.tiles li {
+    display: inline-block;
+    border-bottom: none;
+    padding-right: 0px;
+    padding-left: 0px;
+    height: calc(var(--my-size-img-tiles) + 10px);
+}
+
+/*.tiles li * :not(:first-child){ */
+.tiles li  * {
+    display: none;
+}
+
+.tiles li  img {
+    display: block;
+    height: var(--my-size-img-tiles);
+    width: var(--my-size-img-tiles);
+}
+
+.tiles main {
+    padding-left: 10px;
+}
+
+/* fade in / fade out */
+
+main.faded {
+    opacity: 0;
+    transition:  opacity 2s;
+}
+
+main {
+    opacity: 1.0;
+    transition:  opacity 1s;
 }
