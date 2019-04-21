@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39bf4f53-fe98-4ca9-bb5f-69d3221051b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/css.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/css.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/htm.html" beforeDir="false" afterPath="$PROJECT_DIR$/htm.html" afterDir="false" />
-    </list>
+    <list default="true" id="39bf4f53-fe98-4ca9-bb5f-69d3221051b9" name="Default Changelist" comment="" />
     <list id="dcf78b71-0e70-4787-880c-98834f48cfe6" name="Revert: version 5" comment="" />
     <ignored path="D:\01-Desktop\01-MobileApp\.idea\shelf/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -43,7 +39,7 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/css/css.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="185">
+            <state relative-caret-position="366">
               <caret line="270" selection-start-line="270" selection-end-line="270" />
             </state>
           </provider>
@@ -174,7 +170,7 @@
       <workItem from="1555785238806" duration="301000" />
       <workItem from="1555787239083" duration="8390000" />
       <workItem from="1555843051466" duration="9036000" />
-      <workItem from="1555852562914" duration="3221000" />
+      <workItem from="1555852562914" duration="3372000" />
     </task>
     <task id="LOCAL-00001" summary="version 12">
       <created>1555699127667</created>
@@ -197,11 +193,18 @@
       <option name="project" value="LOCAL" />
       <updated>1555850653599</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="version 20.0&#10;21.04.2019&#10;&#10;Aktueller Stand">
+      <created>1555855852389</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1555855852389</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34407000" />
+    <option name="totallyTimeSpent" value="34558000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1295" height="735" extended-state="6" />
@@ -216,7 +219,7 @@
       <window_info anchor="bottom" id="Docker" order="3" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="4" />
       <window_info anchor="bottom" id="Find" order="5" />
-      <window_info active="true" anchor="bottom" id="Run" order="6" visible="true" weight="0.3294509" />
+      <window_info anchor="bottom" id="Run" order="6" weight="0.3294509" />
       <window_info anchor="bottom" id="Debug" order="7" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="8" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="9" weight="0.4" />
@@ -294,7 +297,8 @@
     <MESSAGE value="version 13&#10;20.04.2019&#10;&#10;mit Andre, erstnal so" />
     <MESSAGE value="version 15&#10;20.04.2019&#10;&#10;body-Klasse" />
     <MESSAGE value="version 15&#10;21.04.2019&#10;&#10;body-Klasse" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 15&#10;21.04.2019&#10;&#10;body-Klasse" />
+    <MESSAGE value="version 20.0&#10;21.04.2019&#10;&#10;Aktueller Stand" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 20.0&#10;21.04.2019&#10;&#10;Aktueller Stand" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE" />
@@ -351,7 +355,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/css/css.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
+        <state relative-caret-position="366">
           <caret line="270" selection-start-line="270" selection-end-line="270" />
         </state>
       </provider>
