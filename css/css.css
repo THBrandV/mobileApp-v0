@@ -239,7 +239,7 @@ main li .option {
 
 /* ------ TILES ------ */
 
-.tiles li .item {
+.tiles li {
     display: inline-block;
     border-bottom: none;
     padding-right: 0px;
@@ -248,11 +248,11 @@ main li .option {
 }
 
 /*.tiles li * :not(:first-child){ */
-.tiles li .item * {
+.tiles li  * {
     display: none;
 }
 
-.tiles li .item img {
+.tiles li  img {
     display: block;
     height: var(--my-size-img-tiles);
     width: var(--my-size-img-tiles);
