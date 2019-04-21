@@ -262,4 +262,14 @@ main li .option {
     padding-left: 10px;
 }
 
+/* fade in / fade out */
 
+main.faded {
+    opacity: 0;
+    transition:  opacity 2s;
+}
+
+main {
+    opacity: 1.0;
+    transition:  opacity 1s;
+}
