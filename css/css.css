@@ -1,14 +1,28 @@
 /* variable declarations */
 :root {
+
+    /*--Farben-- */
     --myapp-color-background: limegreen;
     --myapp-color-separator: rgb(120,120,120);
-    --myapp-color-main: rgb(45,45,45);
-    --myapp-color-header: rgb(60,60,60);
-    --myapp-color-footer: rgb(15, 15, 15);
+    --myapp-color-main: rgb(255,255,255);
+    --myapp-color-header: rgb(255,255,255);
+    --myapp-color-footer: rgb(255, 255, 255);
+    --myapp-color-text: rgb(0,0,0);
+
+    /*--Hoehen und Groessen-- */
     --myapp-height-header: 60px;
     --myapp-height-footer: 50px;
     --myapp-size-imgbutton:40px;
     --myapp-size-imagebutton-img: 20px;
+
+    /*--Titel Beitraege Masze-- */
+    --my-size-img: 55px;
+    --my-size-img-tiles: 100px;
+    --my-height-listitem: 70px;
+    --my-height-listitems-tiles: 110px;
+    --my-color-lines: rgb(120,120,120);
+
+
 }
 
 
@@ -16,7 +30,7 @@ html, body {
     background-color: var(--myapp-color-background);
     margin: 0px;
     font-family: "Avenir Medium", sans-serif;
-    color: white;
+    color: rgb(0,0,0);
     width: 100%;
     max-width: 100%;
     height: 100%;
@@ -37,17 +51,20 @@ header{
     height: var(--myapp-height-header);
 }
 
+main {
+    background-color: var(--myapp-color-main);
+    height: calc(100% - (var(--myapp-height-header) + var(--myapp-height-footer)));
+}
+
 footer{
     background-color: var(--myapp-color-footer);
     height: var(--myapp-height-footer);
     padding-left: 10px;
     padding-right: 10px;
+    border-top: 2px orange solid;
 }
 
-main {
-    background-color: var(--myapp-color-main);
-    height: calc(100% - (var(--myapp-height-header) + var(--myapp-height-footer)));
-}
+
 
 /*main scrolling */
 
@@ -86,7 +103,7 @@ header{
     border:none;
     background-color: transparent;
     color: transparent;
-    filter: invert(90%);
+    filter: invert(50%);
     height: var(--myapp-size-imgbutton);
     width:  var(--myapp-size-imgbutton);
     background-size: var(--myapp-size-imagebutton-img);
@@ -143,15 +160,12 @@ footer .imgbutton{
     background-image: url("./img/glyphicons/png/glyphicons-82-refresh.png");
 }
 
+
+/*--Listenelemente-- */
 main ul{
     list-style:none;
     padding: 0px;
     margin: 0px;
-}
-
-main li{
-
-
 }
 
 
@@ -170,7 +184,7 @@ main li:first-child {
 }
 
 main li .imgbutton {
-    margin-top: calc((var(--my-height-listitem) - var(--my-size-imgbutton) ) / 2);
+    margin-top: calc((var(--my-height-listitem) - var(--myapp-size-imgbutton) ) / 2);
 }
 
 
@@ -194,10 +208,10 @@ main li img {
 main li .zeile {
     height: 20px;
     width: calc(100% - 70px);
-    padding: 0px;
+    /*padding: 0px;*/
     font-size: 10px;
     /*margin-top: 5px;*/
-    margin-right: 0px;
+    /*margin-right: 0px;*/
     vertical-align: top;
 }
 
@@ -223,8 +237,8 @@ main li .option {
 .tiles li {
     display: inline-block;
     border-bottom: none;
-    padding-right: 0px;
-    padding-left: 0px:
+   /* padding-right: 0px;
+    padding-left: 0px; */
     height: calc(var(--my-size-img-tiles) + 10px);
 }
 
@@ -241,3 +255,5 @@ main li .option {
 .tiles main {
     padding-left: 10px;
 }
+
+
