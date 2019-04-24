@@ -10,12 +10,25 @@ function initialiseView(){
 
    header.onclick = () => {
     document.body.classList.toggle("tiles");
-   }
+   };
 
    refresh.onclick = () =>  {
     main.classList.toggle("faded");
-    }
-}
+
+    //main.addEventListener("transitionend",() => {
+     //   main.classList.toggle("faded");
+        main.addEventListener("transitionend",ontransitionend);
+    };
+
+
+    function ontransitionend() {
+        main.classList.toggle("faded");
+        main.removeEventListener("transitionend",ontransitionend);
+
+
+        }
+
+ }
 
 
 
