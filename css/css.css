@@ -2,7 +2,7 @@
 :root {
 
     /*--Farben-- */
-    --myapp-color-background: limegreen;
+    --myapp-color-background: rgb(255,255,255);/*limegreen;*/
     --myapp-color-separator: rgb(120,120,120);
     --myapp-color-main: rgb(255,255,255);
     --myapp-color-header: rgb(255,255,255);
@@ -137,6 +137,8 @@ footer .imgbutton{
     margin-right: 0px;
 }
 
+
+/*-- Menueknoepfe--*/
 .menue{
 
     background-image: url("./img/glyphicons/png/glyphicons-517-menu-hamburger.png");
@@ -152,16 +154,33 @@ footer .imgbutton{
 
     background-image: url("./img/glyphicons/png/glyphicons-157-show-thumbnails.png");
 }
+.listen {
+    background-image: url(./img/glyphicons/png/glyphicons-115-list.png);
+}
 
 
 .login{
 
     background-image: url("./img/glyphicons/png/glyphicons-387-log-in.png");
 }
+.logout {
+    background-image: url(./img/glyphicons/png/glyphicons-388-log-out.png);
+}
 
 .refresh{
 
     background-image: url("./img/glyphicons/png/glyphicons-82-refresh.png");
+}
+
+
+.play {
+    background-image: url(./img/glyphicons/png/glyphicons-174-play.png);
+    background-size: 10px;
+}
+
+.option {
+    background-image: url(./img/glyphicons/png/glyphicons-518-option-vertical.png);
+    /*background-size: 6px;*/
 }
 
 

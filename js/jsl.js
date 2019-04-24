@@ -2,34 +2,61 @@
  * Created by master on 01.03.16.
  */
 
+// Funktion ini... erzeugen
+function initialiseView() {
 
-function initialiseView(){
-    var header = document.getElementsByTagName("header") [0];
+    // ------ Variablen zuordnen ------ //
+
     var main = document.querySelector("main");
-    var refresh = document.querySelector("footer .refresh");
+    //var refresh = document.querySelector("footer .refresh");
 
-   header.onclick = () => {
-    document.body.classList.toggle("tiles");
-   };
+    var viewswitch = document.querySelector("header .listen");
+    var ansicht = document.getElementById("switch");
 
-   refresh.onclick = () =>  {
-    main.classList.toggle("faded");
+    // Kachel als erstes
+    var kachel = true;
 
-    //main.addEventListener("transitionend",() => {
-     //   main.classList.toggle("faded");
+/*
+    refresh.onclick = () =>  {
+        main.classList.toggle("faded");
+
         main.addEventListener("transitionend",ontransitionend);
+    }; */
+
+    // Umschalten onclick auf Listensymbaol
+    viewswitch.onclick = () => {
+
+        //Objekte ausblenden
+        main.classList.toggle("faded");
+        // nach transitionend -> ontransitionend aufrufen
+        main.addEventListener("transitionend", ontransitionend);
     };
 
 
+
+    // ------- FUNKTION ontransitionend ------ //
     function ontransitionend() {
-        main.classList.toggle("faded");
-        main.removeEventListener("transitionend",ontransitionend);
 
 
+        document.body.classList.toggle("tiles");
+        // if-Anweisung überprüfen ob Kachel  gesetzt
+        if (kachel == false) {
+            //wenn nicht gesetzt, dann ersetzen mit Liste
+            ansicht.classList.replace("kachel","listen");
+            // setzen kachel true
+            kachel = true;
+        } else {
+            // ansonsten tauschen
+            ansicht.classList.replace("listen","kachel");
+            // und kachelkachel auf false setzen
+            kachel = false;
         }
 
- }
+        main.classList.toggle("faded");
+        main.removeEventListener("transitionend", ontransitionend);
 
+    }
 
+}
 
 window.onload = initialiseView;
