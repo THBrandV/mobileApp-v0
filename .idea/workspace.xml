@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="39bf4f53-fe98-4ca9-bb5f-69d3221051b9" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="39bf4f53-fe98-4ca9-bb5f-69d3221051b9" name="Default Changelist" comment="" />
     <list id="dcf78b71-0e70-4787-880c-98834f48cfe6" name="Revert: version 5" comment="" />
     <ignored path="D:\01-Desktop\01-MobileApp\.idea\shelf/" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -41,8 +39,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/js/jsl.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="660">
-              <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+            <state relative-caret-position="201">
+              <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
             </state>
           </provider>
         </entry>
@@ -104,7 +102,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="1">
     <option name="x" value="66" />
     <option name="width" value="1492" />
     <option name="height" value="1088" />
@@ -176,7 +174,7 @@
       <workItem from="1555852562914" duration="3372000" />
       <workItem from="1556048135103" duration="5572000" />
       <workItem from="1556128967036" duration="3163000" />
-      <workItem from="1557060527907" duration="1774000" />
+      <workItem from="1557060527907" duration="2164000" />
     </task>
     <task id="LOCAL-00001" summary="version 12">
       <created>1555699127667</created>
@@ -227,14 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1556131576911</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="version 23.0&#10;05.05.2019 20:45&#10;&#10;Aktueller Stand">
+      <created>1557063012187</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1557063012187</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45067000" />
+    <option name="totallyTimeSpent" value="45457000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="53" y="0" width="1193" height="870" extended-state="0" />
+    <frame x="53" y="0" width="1193" height="870" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" order="0" sideWeight="0.5091514" side_tool="true" weight="0.24920382" />
@@ -327,7 +332,8 @@
     <MESSAGE value="version 20.0&#10;21.04.2019&#10;&#10;Aktueller Stand" />
     <MESSAGE value="version 22.0&#10;24.04.2019&#10;&#10;Aktueller Stand" />
     <MESSAGE value="version 23.0&#10;24.04.2019 20:45&#10;&#10;Aktueller Stand" />
-    <option name="LAST_COMMIT_MESSAGE" value="version 23.0&#10;24.04.2019 20:45&#10;&#10;Aktueller Stand" />
+    <MESSAGE value="version 23.0&#10;05.05.2019 20:45&#10;&#10;Aktueller Stand" />
+    <option name="LAST_COMMIT_MESSAGE" value="version 23.0&#10;05.05.2019 20:45&#10;&#10;Aktueller Stand" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/LICENSE" />
@@ -410,8 +416,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/js/jsl.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="660">
-          <caret line="61" column="31" lean-forward="true" selection-start-line="61" selection-start-column="31" selection-end-line="61" selection-end-column="31" />
+        <state relative-caret-position="201">
+          <caret line="34" lean-forward="true" selection-start-line="34" selection-end-line="34" />
         </state>
       </provider>
     </entry>

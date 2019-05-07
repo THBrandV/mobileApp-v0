@@ -290,5 +290,5 @@ main.faded {
 
 main {
     opacity: 1.0;
-    transition:  opacity 1s;
+    transition:  opacity 0s;
 }
