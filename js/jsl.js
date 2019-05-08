@@ -145,8 +145,31 @@ function initialiseView() {
 
     function addLiElement(obj){
      // alert("füge neues element für: " + JSON.stringify(obj));
-      ul.innerHTML = ul.innerHTML + "<li><img  class=\"align-left\" src=\"https://placeimg.com/100/100\"/>   <div class=\"zeile align-left\"> <h3 class=\"align-left\"> 1 lorempixel.com</h3> <h3 class=\"align-right\">19.04.2019</h3> </div><div class=\"zeile align-left\"><img class=\"option align-right\" src=\"css/img/glyphicons/png/glyphicons-518-option-vertical.png\"/></li>";
-    }
+        console.log("add new element for: " + JSON.stringify(obj));
+    //   ul.innerHTML = ul.innerHTML + "<li><img  class=\"align-left\" src=\"https://placeimg.com/100/100\"/>   <div class=\"zeile align-left\"> <h3 class=\"align-left\"> 1 lorempixel.com</h3> <h3 class=\"align-right\">19.04.2019</h3> </div><div class=\"zeile align-left\"><img class=\"option align-right\" src=\"css/img/glyphicons/png/glyphicons-518-option-vertical.png\"/></li>";
+
+    //Lösung 2
+        // nutze DOM Schnittstelle ..mit creator-Funktion
+
+        var li = document.createElement("li");
+        var img = document.createElement("img");
+        img.classList.add("align-left");
+        img.src = obj.src;
+        li.appendChild(img);
+
+        var div = document.createElement("div");
+        div.classList.add("zeile");
+        var h3 = document.createElement("h3");
+
+        h3.classList.add("align-left");
+        h3.textContent = obj.title;
+
+        li.appendChild(div);
+        div.appendChild(h3);
+
+
+        ul.appendChild(li);
+     }
 
 
 }

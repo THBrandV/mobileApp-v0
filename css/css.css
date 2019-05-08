@@ -228,7 +228,7 @@ main li img {
 
 
 
-main li .zeile {
+.zeile {
     height: 20px;
     width: calc(100% - 70px);
     /*padding: 0px;*/
