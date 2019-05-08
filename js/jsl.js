@@ -11,8 +11,9 @@ function initialiseView() {
     var refresh = document.querySelector("footer .refresh");
 
     var viewswitch = document.querySelector("header .listen");
-    var ansicht = document.querySelector("switch");
+    var ansicht = document.getElementById("switch");
     var ul = main.getElementsByTagName("ul")[0];
+
     var add = document.querySelector("header .add");
     var option = document.querySelector("main li .option");
     // Kachel als erstes
