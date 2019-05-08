@@ -139,12 +139,13 @@ function initialiseView() {
 
     //addButton - AddElement
     add.onclick = (evt) => {
-      alert("add new element");
-      addLiElement({title: "Neues Element" + Date.now(),src:"https://placeimg.com/100/100"})
+      //alert("add new element");
+      addLiElement({title: "Neues Element" + Date.now(),src:"https://placeimg.com/100/300"})
     }
 
     function addLiElement(obj){
-      alert("füge neues element für: " + JSON.stringify(obj));
+     // alert("füge neues element für: " + JSON.stringify(obj));
+      ul.innerHTML = ul.innerHTML + "<li><img  class=\"align-left\" src=\"https://placeimg.com/100/100\"/>   <div class=\"zeile align-left\"> <h3 class=\"align-left\"> 1 lorempixel.com</h3> <h3 class=\"align-right\">19.04.2019</h3> </div><div class=\"zeile align-left\"><img class=\"option align-right\" src=\"css/img/glyphicons/png/glyphicons-518-option-vertical.png\"/></li>";
     }
 
 
