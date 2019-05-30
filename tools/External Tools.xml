@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="Mongo" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="true" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="C:\Program Files\MongoDB\Server\4.0\bin\mongo.exe" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="D:/01-Desktop/01-01-GitHub/mobileApp-v3/mdb/mdbdata/db" />
+    </exec>
+  </tool>
+</toolSet>
